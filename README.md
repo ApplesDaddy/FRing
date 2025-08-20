@@ -15,4 +15,6 @@
 10. Setup NFS for easy file transfer and cross compilation for code editing
 11. Check if python and pip are installed on RaspberryPi by using `python3 --version` and `pip3 --version`
 12. If not installed, `sudo apt install python3` and `sudo apt install python3-pip`
-13. Install flask and opencv `pip3 install flask opencv-python`
+13. Create virtual environment `python3 -m venv ~/fring`
+14. Activate virtual environment `source ~/fring/bin/activate`. Use `deactivate` to exit virtual environment.
+15. Install flask and opencv `pip install flask opencv-python`
